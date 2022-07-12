@@ -1,0 +1,1 @@
+db.produtos.find({ curtidas: { $gte: 50 } }, { _id: 0, nome: 1 });
